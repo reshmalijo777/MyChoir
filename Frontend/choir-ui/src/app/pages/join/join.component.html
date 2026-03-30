@@ -1,0 +1,50 @@
+<div class="box">
+  <h2>🎵 Join the Choir</h2>
+
+  <!-- Name -->
+  <input [(ngModel)]="member.name"
+         name="name"
+         #name="ngModel"
+         required
+         placeholder="Name">
+
+  <div class="error" *ngIf="name?.invalid && name?.touched">
+    Name is required
+  </div>
+
+  <!-- Email -->
+  <input [(ngModel)]="member.email"
+         name="email"
+         #email="ngModel"
+         required
+         placeholder="Email">
+
+  <div class="error" *ngIf="email?.invalid && email?.touched">
+    Email is required
+  </div>
+
+  <!-- Phone -->
+  <input [(ngModel)]="member.phone"
+         name="phone"
+         #phone="ngModel"
+         required
+         placeholder="Phone">
+
+  <div class="error" *ngIf="phone?.invalid && phone?.touched">
+    Phone is required
+  </div>
+
+  <!-- Voice -->
+  <input [(ngModel)]="member.voiceType"
+         name="voice"
+         #voice="ngModel"
+         required
+         placeholder="Voice Type">
+
+  <div class="error" *ngIf="voice?.invalid && voice?.touched">
+    Voice type is required
+  </div>
+
+  <!-- Button -->
+  <button type="button" (click)="submit()">Join Now</button>
+</div>
