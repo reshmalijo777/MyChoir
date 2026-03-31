@@ -6,6 +6,9 @@ C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Choir.API.deps.json
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Choir.API.runtimeconfig.json
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Choir.API.dll
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Choir.API.pdb
+C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\AWSSDK.Core.dll
+C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\AWSSDK.DynamoDBv2.dll
+C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\AWSSDK.Extensions.NETCore.Setup.dll
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Myprojects\MyChoir\Backend\Choir.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
@@ -18,6 +21,7 @@ C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.AssemblyInfo.
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.csproj.CoreCompileInputs.cache
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.sourcelink.json
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

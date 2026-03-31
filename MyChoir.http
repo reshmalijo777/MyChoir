@@ -1,0 +1,6 @@
+@MyChoir_HostAddress = http://localhost:5079
+
+GET {{MyChoir_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

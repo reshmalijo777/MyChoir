@@ -1,18 +1,23 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Choir.API.Models;
+using Choir.API.Services;
 
-namespace Choir.API.Controllers
+[ApiController]
+[Route("api/[controller]")]
+public class JoinController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class JoinController : ControllerBase
-    {
-        [HttpPost]
-        public IActionResult Join([FromBody] Member member)
-        {
-            Console.WriteLine($"New Member: {member.Name}");
+    private readonly DynamoService _dynamo;  
 
-            return Ok(new { message = "Successfully joined choir!" });
-        }
+    public JoinController(DynamoService dynamo)
+    {
+        _dynamo = dynamo;  
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> Join([FromBody] Member member)
+    {
+        await _dynamo.SaveMemberAsync(member);
+
+        return Ok(new { message = $"{member.Name} saved to AWS!" });
     }
 }

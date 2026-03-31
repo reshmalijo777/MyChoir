@@ -23,7 +23,6 @@ export class JoinComponent {
 
   submit() {
 
-    // ✅ VALIDATION (NEW)
     if (!this.member.name || !this.member.email || !this.member.phone || !this.member.voiceType) {
       alert("❌ Please fill all fields before submitting!");
       return;
