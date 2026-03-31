@@ -1,59 +1,144 @@
-# ChoirUi
+# 🎵 Choir Website (Full Stack Project)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.3.
+A full-stack web application for managing a church choir team.
+Built using **Angular (frontend)**, **.NET Web API (backend)**, and **AWS DynamoDB (cloud database)**.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🚀 Features
 
-```bash
+* 🎶 Choir Home Page
+* 👥 About / Team Information
+* ⏰ Practice Schedule
+* 📝 Join Choir Form
+* 📋 View Members List (from AWS DynamoDB)
+* ☁️ Cloud data storage (AWS)
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+* Angular (Standalone Components)
+* HTML, CSS
+
+### Backend
+
+* .NET 8 Web API
+* REST API
+
+### Cloud
+
+* AWS DynamoDB
+* AWS IAM (authentication & permissions)
+
+---
+
+## 📂 Project Structure
+
+```
+MyChoir/
+│
+├── Backend/
+│   └── Choir.API/
+│       ├── Controllers/
+│       ├── Models/
+│       ├── Services/
+│       └── Program.cs
+│
+└── Frontend/
+    └── choir-ui/
+        ├── src/app/pages/
+        ├── src/app/services/
+        └── main.ts
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone Repository
+
+```
+git clone https://github.com/your-username/choir-website.git
+cd choir-website
+```
+
+---
+
+### Backend Setup (.NET)
+
+```
+cd Backend/Choir.API
+dotnet restore
+dotnet run
+```
+
+API runs at:
+
+```
+http://localhost:5000/api/join
+```
+
+---
+
+### Frontend Setup (Angular)
+
+```
+cd Frontend/choir-ui
+npm install
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+App runs at:
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
+```
+http://localhost:4200
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
+### AWS Setup
+
+* Create DynamoDB table:
+
+  * Table name: `ChoirMembers`
+  * Partition key: `Id (String)`
+
+* Configure AWS CLI:
+
+```
+aws configure
 ```
 
-## Building
+---
 
-To build the project run:
+## API Endpoints
 
-```bash
-ng build
-```
+### POST `/api/join`
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Add a new choir member
 
-## Running unit tests
+### GET `/api/join`
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Get all choir members
 
-```bash
-ng test
-```
+---
 
-## Running end-to-end tests
+## Screens
 
-For end-to-end (e2e) testing, run:
+* Home page
+* Join form
+* Members list (live data from AWS)
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## 🧠 Key Learnings
 
-## Additional Resources
+* Full-stack development (Angular + .NET)
+* REST API integration
+* AWS DynamoDB integration
+* Handling CORS and HTTP requests
+* Git & GitHub workflow
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
