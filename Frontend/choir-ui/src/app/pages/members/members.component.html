@@ -1,0 +1,25 @@
+<div class="container">
+  <h2>🎵 Choir Members</h2>
+
+  <p>Total members: {{ members.length }}</p>
+
+  <table border="1" width="100%">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Voice Type</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let m of members">
+        <td>{{ m.name }}</td>
+        <td>{{ m.email }}</td>
+        <td>{{ m.phone }}</td>
+        <td>{{ m.voiceType }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

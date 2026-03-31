@@ -13,4 +13,7 @@ export class JoinService {
   join(data: any) {
     return this.http.post(this.apiUrl, data);
   }
+  getMembers() {
+    return this.http.get<any[]>(this.apiUrl);
+  }
 }
