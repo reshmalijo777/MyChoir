@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj": {}
+    "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj": {}
   },
   "projects": {
-    "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj": {
+    "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj",
+        "projectUniqueName": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
         "projectName": "Choir.API",
-        "projectPath": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj",
+        "projectPath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
         "packagesPath": "C:\\Users\\snowl\\.nuget\\packages\\",
-        "outputPath": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\obj\\",
+        "outputPath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

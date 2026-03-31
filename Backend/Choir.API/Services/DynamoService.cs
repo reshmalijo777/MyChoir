@@ -18,5 +18,12 @@ namespace Choir.API.Services
         {
             await _context.SaveAsync(member);
         }
+
+        public async Task<List<Member>> GetAllMembersAsync()
+        {
+            var conditions = new List<ScanCondition>();
+
+            return await _context.ScanAsync<Member>(conditions).GetRemainingAsync();
+        }
     }
 }

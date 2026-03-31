@@ -20,4 +20,11 @@ public class JoinController : ControllerBase
 
         return Ok(new { message = $"{member.Name} saved to AWS!" });
     }
+
+    [HttpGet]
+    public async Task<IActionResult> GetMembers()
+    {
+        var members = await _dynamo.GetAllMembersAsync();
+        return Ok(members);
+    }
 }

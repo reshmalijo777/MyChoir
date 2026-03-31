@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BgkxEzvhQhw=",
+  "dgSpecHash": "Zk8K5t0V4es=",
   "success": true,
-  "projectFilePath": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj",
+  "projectFilePath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snowl\\.nuget\\packages\\awssdk.core\\4.0.3.24\\awssdk.core.4.0.3.24.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\awssdk.dynamodbv2\\4.0.17.3\\awssdk.dynamodbv2.4.0.17.3.nupkg.sha512",

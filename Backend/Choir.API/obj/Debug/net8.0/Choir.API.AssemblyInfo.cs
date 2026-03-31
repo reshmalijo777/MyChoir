@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Choir.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6650e8e475f8fb05544b8a8077bd3835929237d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2aa1990c5112c0517c07cd524e5a0eb3815912")]
 [assembly: System.Reflection.AssemblyProductAttribute("Choir.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Choir.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
