@@ -1,0 +1,32 @@
+.home {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  .btn:hover {
+    background-color: #125aa0;
+  }

@@ -5,7 +5,7 @@ Built using **Angular (frontend)**, **.NET Web API (backend)**, and **AWS Dynamo
 
 ---
 
-## 🚀 Features
+##  Features
 
 * 🎶 Choir Home Page
 * 👥 About / Team Information
@@ -16,7 +16,7 @@ Built using **Angular (frontend)**, **.NET Web API (backend)**, and **AWS Dynamo
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 
@@ -56,7 +56,7 @@ MyChoir/
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### Clone Repository
 
@@ -134,7 +134,7 @@ Get all choir members
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * Full-stack development (Angular + .NET)
 * REST API integration
