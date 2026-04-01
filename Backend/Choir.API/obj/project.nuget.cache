@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Zk8K5t0V4es=",
+  "dgSpecHash": "+Xgl4d9I6eE=",
   "success": true,
   "projectFilePath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snowl\\.nuget\\packages\\awssdk.core\\4.0.3.24\\awssdk.core.4.0.3.24.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\awssdk.dynamodbv2\\4.0.17.3\\awssdk.dynamodbv2.4.0.17.3.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\awssdk.extensions.netcore.setup\\4.0.3.28\\awssdk.extensions.netcore.setup.4.0.3.28.nupkg.sha512",
+    "C:\\Users\\snowl\\.nuget\\packages\\awssdk.sqs\\4.0.2.20\\awssdk.sqs.4.0.2.20.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\snowl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

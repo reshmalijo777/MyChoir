@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyChoir")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a1a3b5106e06c5e6f731040ff0cba79f21ecb53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b2aa1990c5112c0517c07cd524e5a0eb3815912")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyChoir")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyChoir")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

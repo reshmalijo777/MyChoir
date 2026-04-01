@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[4.0.3.28, )"
             },
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[4.0.2.20, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

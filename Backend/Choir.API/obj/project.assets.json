@@ -53,6 +53,22 @@
           "buildTransitive/net8.0/AWSSDK.Extensions.NETCore.Setup.targets": {}
         }
       },
+      "AWSSDK.SQS/4.0.2.20": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[4.0.3.24, 5.0.0)"
+        },
+        "compile": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
@@ -284,6 +300,31 @@
         "lib/netcoreapp3.1/AWSSDK.Extensions.NETCore.Setup.xml",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll",
         "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.xml"
+      ]
+    },
+    "AWSSDK.SQS/4.0.2.20": {
+      "sha512": "vrxu9eBTpww/MVs1FzQaMQmUlryIrDKm/Q5ZaAE74pKpkTK3ye/wp/F6JmPNtTR6xMjpBDapjopXgi0to6Z8bA==",
+      "type": "package",
+      "path": "awssdk.sqs/4.0.2.20",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "analyzers/dotnet/cs/SharedAnalysisCode.dll",
+        "awssdk.sqs.4.0.2.20.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "images/AWSLogo.png",
+        "lib/net472/AWSSDK.SQS.dll",
+        "lib/net472/AWSSDK.SQS.xml",
+        "lib/net8.0/AWSSDK.SQS.dll",
+        "lib/net8.0/AWSSDK.SQS.xml",
+        "lib/netcoreapp3.1/AWSSDK.SQS.dll",
+        "lib/netcoreapp3.1/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
@@ -733,6 +774,7 @@
     "net8.0": [
       "AWSSDK.DynamoDBv2 >= 4.0.17.3",
       "AWSSDK.Extensions.NETCore.Setup >= 4.0.3.28",
+      "AWSSDK.SQS >= 4.0.2.20",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -743,11 +785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj",
+      "projectUniqueName": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
       "projectName": "Choir.API",
-      "projectPath": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Choir.API.csproj",
+      "projectPath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\Choir.API.csproj",
       "packagesPath": "C:\\Users\\snowl\\.nuget\\packages\\",
-      "outputPath": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\obj\\",
+      "outputPath": "C:\\Myprojects\\MyChoir\\backend\\Choir.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -793,6 +835,10 @@
           "AWSSDK.Extensions.NETCore.Setup": {
             "target": "Package",
             "version": "[4.0.3.28, )"
+          },
+          "AWSSDK.SQS": {
+            "target": "Package",
+            "version": "[4.0.2.20, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

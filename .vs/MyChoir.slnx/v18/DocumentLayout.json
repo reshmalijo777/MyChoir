@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Myprojects\\MyChoir\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Controllers\\JoinController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Choir.API\\Controllers\\JoinController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Choir.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\SqsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Choir.API\\Services\\SqsService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Choir.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\DynamoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Choir.API\\Services\\DynamoService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\choir-ui\\src\\app\\app.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\services\\join.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Frontend\\choir-ui\\src\\app\\services\\join.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SqsService.cs",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\SqsService.cs",
+              "RelativeDocumentMoniker": "Backend\\Choir.API\\Services\\SqsService.cs",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\SqsService.cs",
+              "RelativeToolTip": "Backend\\Choir.API\\Services\\SqsService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T23:39:31.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Choir.API\\Program.cs",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Program.cs",
+              "RelativeToolTip": "Backend\\Choir.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T22:51:21.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\Choir.API\\appsettings.json",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\appsettings.json",
+              "RelativeToolTip": "Backend\\Choir.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T22:50:22.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DynamoService.cs",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\DynamoService.cs",
+              "RelativeDocumentMoniker": "Backend\\Choir.API\\Services\\DynamoService.cs",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Services\\DynamoService.cs",
+              "RelativeToolTip": "Backend\\Choir.API\\Services\\DynamoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T22:45:12.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JoinController.cs",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Controllers\\JoinController.cs",
+              "RelativeDocumentMoniker": "Backend\\Choir.API\\Controllers\\JoinController.cs",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Backend\\Choir.API\\Controllers\\JoinController.cs",
+              "RelativeToolTip": "Backend\\Choir.API\\Controllers\\JoinController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T22:43:04.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "join.service.ts",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\services\\join.service.ts",
+              "RelativeDocumentMoniker": "Frontend\\choir-ui\\src\\app\\services\\join.service.ts",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\services\\join.service.ts",
+              "RelativeToolTip": "Frontend\\choir-ui\\src\\app\\services\\join.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-31T22:38:19.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.config.ts",
+              "DocumentMoniker": "C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\app.config.ts",
+              "RelativeDocumentMoniker": "Frontend\\choir-ui\\src\\app\\app.config.ts",
+              "ToolTip": "C:\\Myprojects\\MyChoir\\Frontend\\choir-ui\\src\\app\\app.config.ts",
+              "RelativeToolTip": "Frontend\\choir-ui\\src\\app\\app.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-31T22:33:54.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -6,19 +6,21 @@ using Choir.API.Services;
 [Route("api/[controller]")]
 public class JoinController : ControllerBase
 {
-    private readonly DynamoService _dynamo;  
+    private readonly DynamoService _dynamo;
+    private readonly SqsService _sqs;
 
-    public JoinController(DynamoService dynamo)
+    public JoinController(DynamoService dynamo, SqsService sqs)
     {
-        _dynamo = dynamo;  
+        _dynamo = dynamo;
+        _sqs = sqs;
     }
 
-    [HttpPost]
-    public async Task<IActionResult> Join([FromBody] Member member)
+
+    [HttpPost("direct")]
+    public async Task<IActionResult> JoinDirect(Member member)
     {
         await _dynamo.SaveMemberAsync(member);
-
-        return Ok(new { message = $"{member.Name} saved to AWS!" });
+        return Ok();
     }
 
     [HttpGet]
@@ -26,5 +28,23 @@ public class JoinController : ControllerBase
     {
         var members = await _dynamo.GetAllMembersAsync();
         return Ok(members);
+    }
+
+
+    [HttpPost]
+    public async Task<IActionResult> Join([FromBody] Member member)
+    {
+        try
+        {
+            await _sqs.SendMessageAsync(member);   
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("SQS ERROR: " + ex.Message); 
+        }
+
+        await _dynamo.SaveMemberAsync(member);     
+
+        return Ok(new { message = "Saved!" });
     }
 }

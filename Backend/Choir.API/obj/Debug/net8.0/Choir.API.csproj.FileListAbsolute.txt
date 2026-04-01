@@ -38,3 +38,4 @@ C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.pdb
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\Choir.API.genruntimeconfig.cache
 C:\Myprojects\MyChoir\Backend\Choir.API\obj\Debug\net8.0\ref\Choir.API.dll
 C:\Myprojects\MyChoir\backend\choir.api\bin\Debug\net8.0\package-lock.json
+C:\Myprojects\MyChoir\backend\Choir.API\bin\Debug\net8.0\AWSSDK.SQS.dll
